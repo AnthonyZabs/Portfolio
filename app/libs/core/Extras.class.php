@@ -1,10 +1,7 @@
 <?php
 ####################################
-# ShopiLock V1.0                   #
 # Developed by J. A. A. Z.         #
 #  - 2021                          #
-# This is a paid licensed product  #
-# and is not allowed to distribute #
 ####################################
 
 class Extras {
@@ -331,7 +328,7 @@ class Extras {
         return trim($result) . $points;
     }
 
-    // Convertir las entidades en formato html a texto plano (Usado en Footer para mostrar la descripción de propiedades sin formato html)
+    // Convertir las entidades en formato html a texto plano
     function htmlToPlainText($str){
         $str = str_replace('&nbsp;', ' ', $str);
         $str = html_entity_decode($str, ENT_QUOTES | ENT_COMPAT , 'UTF-8');

@@ -4,17 +4,10 @@
 #  - 2021                          #
 ####################################
 
-class IndexController extends Controller {
-
-    function __construct() {
-        parent::__construct();
-    }
-
-    function Index() {
-
-        // Call the view
-        $this->View->Render($this->Model, __METHOD__);
-    }
+class ES {
     
+    function __construct() {
+        $this->HELLOWORLD = "Hola Mundo";
+    }
 }
 ?>

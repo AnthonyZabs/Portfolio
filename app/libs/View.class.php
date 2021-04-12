@@ -1,10 +1,7 @@
 <?php
 ####################################
-# ShopiLock V1.0                   #
 # Developed by J. A. A. Z.         #
 #  - 2021                          #
-# This is a paid licensed product  #
-# and is not allowed to distribute #
 ####################################
 
 class View {
@@ -16,6 +13,10 @@ class View {
     function Render($model, $object, $layout = true) {
         $this->Model = $model;
 
+        // Langs
+        $this->LM = new LangManager();
+        $this->LM = $this->LM->L;
+        
         // Redirect if not logged in
         if ($this->Model->needAuth && !$this->Model->Session->Exist(Config::$SessionName)):
             header("Location: /ACP");
