@@ -27,6 +27,9 @@
     <!-- Template Main CSS File -->
     <link href="<?php echo Config::$SOURCES; ?>/css/style.css" rel="stylesheet">
 
+    <!-- Animation CSS File -->
+    <link href="<?php echo Config::$SOURCES; ?>/css/animate.css" rel="stylesheet">
+
     <!-- Custom Slider -->
     <link href="<?php echo Config::$SOURCES; ?>/vendor/multislider/css/custom.css" rel="stylesheet">
 

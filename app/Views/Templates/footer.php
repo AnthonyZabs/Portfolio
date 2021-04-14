@@ -31,11 +31,14 @@
   <script src="<?php echo Config::$SOURCES; ?>/vendor/php-email-form/validate.js"></script>
   <script src="<?php echo Config::$SOURCES; ?>/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="<?php echo Config::$SOURCES; ?>/js/main.js"></script>
-
   <!-- Include jQuery -->
   <script src="<?php echo Config::$SOURCES; ?>/vendor/multislider/js/jquery-2.2.4.min.js"></script>
+  
+  <!-- Bootstrap Notify -->
+  <script src="<?php echo Config::$SOURCES; ?>/js/bootstrap-notify.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="<?php echo Config::$SOURCES; ?>/js/main.js"></script>
 
   <!-- Include Multislider -->
   <script src="<?php echo Config::$SOURCES; ?>/vendor/multislider/js/multislider.min.js"></script>

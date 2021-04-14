@@ -207,7 +207,7 @@
             </p>
           </div>
           <div class="col-md-5">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="" method="post" role="form" onsubmit="return SendContact();">
 
                 <div class="row">
                 <div class="col-md-6 form-group">
@@ -220,21 +220,14 @@
                 </div>
                 <div class="col-md-12 form-group mt-3">
                     <label for="name">Mensaje</label>
-                    <textarea class="form-control" name="message" required=""></textarea>
+                    <textarea id="message" class="form-control" name="message" maxlength="450" required="" style="height: 130px;max-height: 130px;"></textarea>
                 </div>
-
-                <div class="col-md-12 mb-3">
-                    <div class="loading">Cargando...</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Mensaje enviado. En breve me pondré en contacto contigo.</div>
-                </div>
-
-                <div class="col-md-6 form-group">
+                <div class="col-md-6 form-group mt-3">
                     <input type="submit" class="btn btn-primary d-block w-100" value="Enviar">
                 </div>
                 </div>
 
-                </form>
+            </form>
           </div>
         </div>
       </div>
