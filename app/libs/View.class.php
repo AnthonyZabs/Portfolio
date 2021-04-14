@@ -15,6 +15,7 @@ class View {
 
         // Langs
         $this->LM = new LangManager();
+        $this->lang =  $this->LM->lang;
         $this->LM = $this->LM->L;
         
         // Redirect if not logged in

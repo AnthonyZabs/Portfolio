@@ -8,10 +8,14 @@ class LangManager
 {
     // Constructs the Class
     public function __construct() {
-        if ($this->detectLang() == "ES")
+        $mLang = $this->detectLang();
+
+        if ($mLang == "ES")
             $this->L = new ES();
         else
             $this->L = new EN();
+        
+        $this->lang = strtolower($mLang);
     }
 
     private function detectLang(){
