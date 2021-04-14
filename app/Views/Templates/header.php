@@ -47,9 +47,9 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="#about">Sobre m&iacute;</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
-                <li><a href="#contact">Contáctame</a></li>
+                <li><a href="#about"><?php echo $this->LM->NAVABOUT; ?></a></li>
+                <li><a href="#portfolio"><?php echo $this->LM->NAVPORT; ?></a></li>
+                <li><a href="#contact"><?php echo $this->LM->NAVCON; ?></a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>

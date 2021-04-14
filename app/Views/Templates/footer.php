@@ -6,7 +6,7 @@
         <div class="logo">
           <h1><a href="/"><img src="<?php echo Config::$SOURCES; ?>/img/logo2.png" alt="" class="img-fluid"></a></h1>
         </div>
-          <p>Sigue de cerca mi trabajo. Me gusta compartir mi conocimiento para ayudar a m&aacute;s de uno a la vez.</p>
+          <p><?php echo $this->LM->FOOTMSG; ?></p>
           <p class="social">
             <a href="https://github.com/AnthonyZabs"><span class="bi bi-github"></span></a>
             <a href="https://www.linkedin.com/in/JoseAntonioAgZb/"><span class="bi bi-linkedin"></span></a>
@@ -16,7 +16,7 @@
 
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
-          <p class="copyright">&copy; <?php echo date("Y") . ", " . $this->Model->Page; ?>. Cr&eacute;ditos a los respectivos clientes y/o agencias.</p>
+          <p class="copyright">&copy; <?php echo date("Y") . ", " . $this->Model->Page . ". " . $this->LM->FOOTCOPY; ?></p>
         </div>
       </div>
 

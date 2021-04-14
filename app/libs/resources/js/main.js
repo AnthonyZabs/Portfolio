@@ -121,7 +121,7 @@ function SendNotify(mtext, mresult) {
   $.notify({
       // options
       icon: (mresult) ? 'bi-check-circle-fill' : 'bi-x-circle-fill',
-      title: (mresult) ? '<b>Éxito:</b> ' : '<b>Error:</b> ',
+      title: (mresult) ? '<b>Success:</b> ' : '<b>Error:</b> ',
       message: mtext
   },{
       // settings
@@ -165,7 +165,8 @@ function SendNotify(mtext, mresult) {
 }
 
 // Contact
-function SendContact() {
+function SendContact(lang) {
+  document.getElementById("sendmsg").disabled = true;
   var inputContactName = document.getElementById("name").value;
   var inputContactEmail = document.getElementById("email").value;
   var inputContactMessage = document.getElementById("message").value;
@@ -173,20 +174,32 @@ function SendContact() {
   // Prevalidations in frontend
   var Error = false;
   if (!inputContactName || inputContactName.length === 0) {
+    if (lang == 'es')
       SendNotify("El campo 'Nombre' no puede estar vacío", false);
-      Error = true;
+    else
+      SendNotify("The field 'Name' can't be empty", false);
+    Error = true;
   }
   if (!inputContactEmail || inputContactEmail.length === 0) {
+    if (lang == 'es')
       SendNotify("El campo 'Correo electrónico' no puede estar vacío", false);
-      Error = true;
+    else
+      SendNotify("The field 'Email' can't be empty", false);
+    Error = true;
   }
   if (!inputContactMessage || inputContactMessage.length === 0) {
+    if (lang == 'es')
       SendNotify("El campo 'Mensaje' no puede estar vacío", false);
-      Error = true;
+    else
+      SendNotify("The field 'Message' can't be empty", false);
+    Error = true;
   }
   if (inputContactMessage.length > 450) {
+    if (lang == 'es')
       SendNotify("El mensaje no debe ser mayor a 450 caracteres", false);
-      Error = true;
+    else
+      SendNotify("The message can't be greater than 450 characters", false);
+    Error = true;
   }
 
   if (Error) return false;
@@ -200,6 +213,7 @@ function SendContact() {
       success:function(resp) {
           var obj = JSON.parse(resp);
           SendNotify(obj['text'], obj['result']);
+          document.getElementById("sendmsg").disabled = false;
           // Clean inputs
           if (obj['result']) {
               document.getElementById("name").value = "";

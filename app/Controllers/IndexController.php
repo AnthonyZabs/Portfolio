@@ -23,19 +23,29 @@ class IndexController extends Controller {
     // AJAX Method Response
     function SendContact() {
         if(isset($_POST["inputContactName"])):
+            $Lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
             $Name = Extras::InjectionCleaner($_POST["inputContactName"]);
             $Email = Extras::InjectionCleaner($_POST["inputContactEmail"]);
             $Email = (empty($Email)) ? "NULL" : $Email;
             $Msg = Extras::InjectionCleaner($_POST["inputContactMessage"]);
 
             if (empty($Name) || empty($Email) || empty($Msg)):
-                $Response['text']   = 'Debe rellenar todos los campos';
+                if ($Lang == "es")
+                    $Response['text']   = 'Debes llenar todos los campos';
+                else
+                    $Response['text']   = 'You must fill all the fields';
                 $Response['result'] = false;
             elseif (strlen($Msg) > 450):
-                $Response['text']   = 'El mensaje no debe ser mayor a 450 caracteres';
+                if ($Lang == "es")
+                    $Response['text']   = 'El mensaje no debe ser mayor a 450 caracteres';
+                else
+                    $Response['text']   = "The message can't be greater than 450 characters";
                 $Response['result'] = false;
             elseif ($Email != "NULL" && !filter_var($Email, FILTER_VALIDATE_EMAIL)):
-                $Response['text']   = 'El correo electrónico es inválido. Por favor, ingrese otro';
+                if ($Lang == "es")
+                    $Response['text']   = 'El correo electrónico es inválido. Por favor, ingresa otro';
+                else
+                    $Response['text']   = "The email is invalid. Please enter another";
                 $Response['result'] = false;
             else:
                 $Email = ($Email != "NULL") ? "'" . $Email . "'" : $Email;
@@ -43,11 +53,17 @@ class IndexController extends Controller {
                 if ($this->Model->DB->InsertT("messages", "name, email, message, author_ip, timestamp", "'".$Name."', ".$Email.", '".$Msg."', '".IpManager::GetIP()."', '".time()."'")) {
                     $M = $this->SendMail($Name, $Email, $Msg, IpManager::GetIP());
 
-                    $Response['text']   = 'Mensaje enviado exitosamente. Me pondré en contacto contigo a la brevedad posible';
+                    if ($Lang == "es")
+                        $Response['text']   = 'Mensaje enviado exitosamente. Me pondré en contacto contigo a la brevedad posible';
+                    else
+                        $Response['text']   = "Message sent successfully. I will contact you as soon as possible";
                     $Response['result'] = true;
                 }
                 else {
-                    $Response['text']   = 'Ocurrió un problema al intentar enviar el mensaje. Inténtalo nuevamente o contáctame directamente por correo electrónico';
+                    if ($Lang == "es")
+                        $Response['text']   = 'Ocurrió un problema al intentar enviar el mensaje. Inténtalo nuevamente o contáctame directamente por correo electrónico';
+                    else
+                        $Response['text']   = "There was a problem trying to send the message. Please try again or contact me directly by email";
                     $Response['result'] = false;
                 }
             endif;
