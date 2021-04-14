@@ -5,8 +5,24 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title><?php echo $this->Model->Page . ' - ' . $this->Model->PageDesc;?></title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta name="author" content="Anthony Zabs">
+    <meta content="Backend &amp; Web Developer" name="description">
+    <meta content="jose antonio aguilar zab, antonio aguilar, anthony zabs, zabs, anthony, programming, code, developer, portolio, portafolio, programacion, codigo, programas, developer, develop, desarrollador, blog, projects, proyectos, c#, java, php, html, web page" name="keywords">
+
+    <meta property="og:title" content="Anthony Zabs">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:description" content="Backend &amp; Web Developer" name="description">
+    <meta property="og:url" content="https://anthonyzabs.com">
+    <meta property="og:site_name" content="Anthony Zabs">
+    <meta property="og:image" content="<?php echo Config::$SOURCES; ?>/img/og_thumbnail.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@JoseAntonioAZ">
+    <meta name="twitter:creator" content="@JoseAntonioAZ">
+    <meta name="twitter:title" content="Anthony Zabs">
+    <meta name="twitter:description" content="Backend &amp; Web Developer. I love to take advantage of my free time in creating new technological tools that can contribute positively to society.">
+    <meta name="twitter:image" content="<?php echo Config::$SOURCES; ?>/img/og_thumbnail.png">
+    <meta name="twitter:image:alt" content="Anthony Zabs">
 
     <!-- Favicons -->
     <link href="<?php echo Config::$SOURCES; ?>/img/favicon/favicon.ico" rel="icon">
