@@ -14,14 +14,14 @@
     <meta property="og:description" content="Backend &amp; Web Developer" name="description">
     <meta property="og:url" content="https://anthonyzabs.com">
     <meta property="og:site_name" content="Anthony Zabs">
-    <meta property="og:image" content="<?php echo Config::$SOURCES; ?>/img/og_thumbnail.png">
+    <meta property="og:image" content="https://anthonyzabs.com/app/libs/resources/img/og_thumbnail.png">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@JoseAntonioAZ">
     <meta name="twitter:creator" content="@JoseAntonioAZ">
     <meta name="twitter:title" content="Anthony Zabs">
     <meta name="twitter:description" content="Backend &amp; Web Developer. I love to take advantage of my free time in creating new technological tools that can contribute positively to society.">
-    <meta name="twitter:image" content="<?php echo Config::$SOURCES; ?>/img/og_thumbnail.png">
+    <meta name="twitter:image" content="https://anthonyzabs.com/app/libs/resources/img/og_thumbnail.png">
     <meta name="twitter:image:alt" content="Anthony Zabs">
 
     <!-- Favicons -->
