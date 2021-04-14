@@ -61,20 +61,20 @@
             <div class="col-md-6 text-justify">
                 <h1 class="justify-content-center text-center mb-5"><img src="/projects/cfe/img/cfe-logo.png" alt="Logo CFE" class="img-fluid"></h1>
                 <p class="mb-4">
-                    Como parte de mi estancia por prácticas profesionales en la Comisi&oacute;n Federal de Electricidad, realic&eacute; las siguientes actividades y proyectos.
+                    Como parte de mi estancia por pr&aacute;cticas profesionales en la Comisi&oacute;n Federal de Electricidad, realic&eacute; las siguientes actividades y proyectos.
                 </p>
                 <p class="mb-4">
                     <ul>
-                        <li>Sistema para migrar base de datos de OSIsoft PI de la GCRC al SQL Server de la Zona de Operación de Transmisión Pachuca (ZOTP)</li>
+                        <li>Sistema para migrar base de datos de OSIsoft PI de la GCRC al SQL Server de la Zona de Operaci&oacute;n de Transmisi&oacute;n Pachuca (ZOTP)</li>
                         <li>Desarrollo, mantenimiento y mejora de sistemas internos de la ZOTP.</li>
-                        <li>Reubicación de la Sala de Operación.</li>
-                        <li>Instructor de curso-taller y capacitación de C#.</li>
-                        <li>Gráfica de demanda eléctrica en tiempo real.</li>
-                        <li>Gráfica de análisis de tiempos y movimientos en las licencias.</li>
-                        <li>Gráfica para el reporte semanal de la demanda en la ZOTP y en la Gerencia de Control Regional Central.</li>
+                        <li>Reubicaci&oacute;n de la Sala de Operaci&oacute;n.</li>
+                        <li>Instructor de curso-taller y capacitaci&oacute;n de C#.</li>
+                        <li>Gr&aacute;fica de demanda el&eacute;ctrica en tiempo real.</li>
+                        <li>Gr&aacute;fica de an&aacute;lisis de tiempos y movimientos en las licencias.</li>
+                        <li>Gr&aacute;fica para el reporte semanal de la demanda en la ZOTP y en la Gerencia de Control Regional Central.</li>
                     </ul>
                 </p>
-                <p class="mb-4"><i>Todos estos sistemas se encuentran operando en la Intranet de la Organización.</i></p>
+                <p class="mb-4"><i>Todos estos sistemas se encuentran operando en la Intranet de la Organizaci&oacute;n.</i></p>
             </div>
             
         </div>

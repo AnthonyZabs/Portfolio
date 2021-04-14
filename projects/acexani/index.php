@@ -61,7 +61,7 @@
             <div class="col-md-6 text-justify">
                 <h1 class="justify-content-center text-center mb-2"><img src="/projects/acexani/img/acexani-logo.png" alt="Logo ACEXANI-II" class="img-fluid"></h1>
                 <p class="mb-4">
-                    Durante mi estancia de estudios en el Instituto, se requiri&oacute; un sistema que facilitara la lectura, gesti&oacute;n y c&aacute;lculos estad&iacute;sticos de los resultados de los ex&aacute;menes CENEVAL, espec&iacute;ficamente del EXANI-II. (Los resultados los recib&iacute;an en archivos de EXCEL con cientos de filas y columnas dificultando su lectura &oacute;ptima).
+                    Durante mi estancia de estudios en el Instituto, se requiri&oacute; un sistema de miner&iacute;a de datos que facilitara la lectura, gesti&oacute;n y c&aacute;lculos estad&iacute;sticos de los resultados de los ex&aacute;menes CENEVAL, espec&iacute;ficamente del EXANI-II. (Los resultados los recib&iacute;an en archivos de EXCEL con cientos de filas y columnas dificultando su lectura &oacute;ptima).
                 </p>
                 <p class="mb-4">
                     <ul>
