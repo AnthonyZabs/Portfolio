@@ -8,8 +8,8 @@
         </div>
           <p>Sigue de cerca mi trabajo. Me gusta compartir mi conocimiento para ayudar a m&aacute;s de uno a la vez.</p>
           <p class="social">
-            <a href="#"><span class="bi bi-github"></span></a>
-            <a href="#"><span class="bi bi-linkedin"></span></a>
+            <a href="https://github.com/AnthonyZabs"><span class="bi bi-github"></span></a>
+            <a href="https://www.linkedin.com/in/JoseAntonioAgZb/"><span class="bi bi-linkedin"></span></a>
           </p>
         </div>
       </div>

@@ -76,7 +76,7 @@
                     </ul>
                 </p>
                 <div class="col-md-6 form-group">
-                    <a href="/" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VER EN GITHUB"></a>
+                    <a href="https://github.com/AnthonyZabs/FutSoft" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VER EN GITHUB"></a>
                 </div>
             </div>
             
