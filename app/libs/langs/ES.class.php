@@ -37,7 +37,7 @@ class ES {
         $this->CONLABBTN = "Enviar";
 
         // Footer
-        $this->FOOTMSG = "Sigue de cerca mi trabajo. Me gusta compartir mi conocimiento para ayudar a m&aacute;s de uno a la vez.";
+        $this->FOOTMSG = "Sigue de cerca mi trabajo. Me gusta compartir mi conocimiento y experiencia para ayudar a m&aacute;s de uno a la vez.";
         $this->FOOTCOPY = "Cr&eacute;ditos a los respectivos clientes y/o agencias.";
     }
 }
