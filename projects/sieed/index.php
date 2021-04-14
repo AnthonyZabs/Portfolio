@@ -58,10 +58,11 @@
 
             </div>
 
+            <?php if (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) == 'es'): ?>
             <div class="col-md-6 text-justify">
                 <h1 class="justify-content-center text-center mb-2"><img src="/projects/sieed/img/sieed-logo.png" alt="Logo SIEED" class="img-fluid"></h1>
                 <p class="mb-4">
-                    Como parte de mi estancia por servicio social en el Tecnol&oacute;gico Nacional de M&eacute;xico (TecnNM), me encargu&eacute; de parte del desarrollo y mantenimiento del Sistema de Inscripci&oacute;n Electr&oacute;nica para los Eventos Deportivos (SIEED). Usado a nivel nacional por los Tecnol&oacute;gicos incorporados al TecNM para la organizaci&oacute;n y control de los eventos deportivos prenacionales y nacionales estudiantiles.
+                    Como parte de mi estancia por servicio social en el Tecnol&oacute;gico Nacional de M&eacute;xico (TecNM), me encargu&eacute; de parte del desarrollo y mantenimiento del Sistema de Inscripci&oacute;n Electr&oacute;nica para los Eventos Deportivos (SIEED). Usado a nivel nacional por los Tecnol&oacute;gicos incorporados al TecNM para la organizaci&oacute;n y control de los eventos deportivos prenacionales y nacionales estudiantiles.
                 </p>
                 <p class="mb-4">
                     <ul>
@@ -75,6 +76,25 @@
                 </p>
                 <p class="mb-4"><i>En 2021 el sistema fue dado de baja debido a la cancelaci&oacute;n de eventos masivos por el COVID-19.</i></p>
             </div>
+            <?php else: ?>
+            <div class="col-md-6 text-justify">
+                <h1 class="justify-content-center text-center mb-2"><img src="/projects/sieed/img/sieed-logo.png" alt="Logo SIEED" class="img-fluid"></h1>
+                <p class="mb-4">
+                    As part of my social service stay at the Tecnológico Nacional de México (TecNM), I was in charge of part of the development and maintenance of the Electronic Registration System for Sports Events (SIEED). Used nationwide by the Technological Institutes incorporated into the TecNM for the organization and control of pre-national and national student sporting events.
+                </p>
+                <p class="mb-4">
+                    <ul>
+                        <li>User session system for MySQL users (for greater security).</li>
+                        <li>Improvement of sections of the Frontend part.</li>
+                        <li>Web design update due to change of government.</li>
+                        <li>Review and improvement of the database model.</li>
+                        <li>Automatically generated PDF reports.</li>
+                        <li>Fixing bugs.</li>
+                    </ul>
+                </p>
+                <p class="mb-4"><i>In 2021 the system was decommissioned due to the cancellation of massive events by COVID-19.</i></p>
+            </div>
+            <?php endif; ?>
             
         </div>
     </div>

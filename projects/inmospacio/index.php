@@ -57,7 +57,8 @@
                 </div>
 
             </div>
-
+            
+            <?php if (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) == 'es'): ?>
             <div class="col-md-6 text-justify">
                 <h1 class="justify-content-center text-center mb-4"><img src="/projects/inmospacio/img/inmospacio-logo.png" alt="Logo InmoSpacio" class="img-fluid"></h1>
                 <p class="mb-4">
@@ -79,6 +80,29 @@
                     <a href="https://inmospacio.com" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VER SITIO"></a>
                 </div>
             </div>
+            <?php else: ?>
+            <div class="col-md-6 text-justify">
+                <h1 class="justify-content-center text-center mb-4"><img src="/projects/inmospacio/img/inmospacio-logo.png" alt="Logo InmoSpacio" class="img-fluid"></h1>
+                <p class="mb-4">
+                    Real estate management and control system for the company InmoSpacio. Some notable characteristics of the developed system are:
+                </p>
+                <p class="mb-4">
+                    <ul>
+                        <li>Management of visitors on the site. (Counter of visits by user and location).</li>
+                        <li>Logs of searches carried out by users.</li>
+                        <li>Administrative Panel for the Web Master.</li>
+                        <li>General site statistics.</li>
+                        <li>Management of properties for sale or rent.</li>
+                        <li>Photo gallery and location on Google Maps.</li>
+                        <li>Dynamic content on pages. (Manageable from the Administrative Panel to avoid the client editing code).</li>
+                        <li>The service included installation in Hosting and configuration of corporate mail. (Linked to the Contact form).</li>
+                    </ul>
+                </p>
+                <div class="col-md-6 form-group">
+                    <a href="https://inmospacio.com" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VIEW SITE"></a>
+                </div>
+            </div>
+            <?php endif; ?>
             
         </div>
     </div>

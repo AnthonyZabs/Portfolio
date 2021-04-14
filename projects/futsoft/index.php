@@ -58,6 +58,7 @@
 
             </div>
 
+            <?php if (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) == 'es'): ?>
             <div class="col-md-6 text-justify">
                 <h1 class="justify-content-center text-center mb-4"><img src="/projects/futsoft/img/futsoft-logo.png" alt="Logo FutSoft" class="img-fluid"></h1>
                 <p class="mb-4">
@@ -79,6 +80,29 @@
                     <a href="https://github.com/AnthonyZabs/FutSoft" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VER EN GITHUB"></a>
                 </div>
             </div>
+            <?php else: ?>
+            <div class="col-md-6 text-justify">
+                <h1 class="justify-content-center text-center mb-4"><img src="/projects/futsoft/img/futsoft-logo.png" alt="Logo FutSoft" class="img-fluid"></h1>
+                <p class="mb-4">
+                    Automated System for the Management of Soccer 7 Tournaments. It's a school project that I did for the subject of Project Management. Among the most notable features are: 
+                </p>
+                <p class="mb-4">
+                    <ul>
+                        <li>User and session system.</li>
+                        <li>Management of Leagues, Tournaments, Journeys, Teams, Coaches, Referees and Players.</li>
+                        <li>Automatic matchmaking.</li>
+                        <li>Match tracking (goals, fouls, changes and comments).</li>
+                        <li>Statistical tables (Goals Table and General Table).</li>
+                        <li>Team templates and player profiles.</li>
+                        <li>Generation of Journeys automated (depending on the results of the previous matches taking into visit away goals).</li>
+                        <li>All this is manageable from an administrative panel (with the option of adding users to the system).</li>
+                    </ul>
+                </p>
+                <div class="col-md-6 form-group">
+                    <a href="https://github.com/AnthonyZabs/FutSoft" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VIEW ON GITHUB"></a>
+                </div>
+            </div>
+            <?php endif; ?>
             
         </div>
     </div>

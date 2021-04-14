@@ -57,7 +57,8 @@
                 </div>
 
             </div>
-
+            
+            <?php if (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) == 'es'): ?>
             <div class="col-md-6 text-justify">
                 <h1 class="justify-content-center text-center mb-5"><img src="/projects/itplibrary/img/itplibrary-logo.png" alt="Logo ITP Library" class="img-fluid"></h1>
                 <p class="mb-4">
@@ -65,7 +66,7 @@
                 </p>
                 <p class="mb-4">
                     <ul>
-                        <li>Interf&aacute;z gr&aacute;fica con dise&ntilde;o estilo Material Desing.</li>
+                        <li>Interf&aacute;z gr&aacute;fica con dise&ntilde;o estilo Material Design.</li>
                         <li>Conexi&oacute;n a base datos MySQL.</li>
                         <li>Gesti&oacute;n de libros, pr&eacute;stamos y devoluciones.</li>
                         <li>Sanciones por devoluciones fuera de tiempo.</li>
@@ -77,6 +78,27 @@
                     <a href="https://github.com/AnthonyZabs/ITPLibrary" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VER EN GITHUB"></a>
                 </div>
             </div>
+            <?php else: ?>
+            <div class="col-md-6 text-justify">
+                <h1 class="justify-content-center text-center mb-5"><img src="/projects/itplibrary/img/itplibrary-logo.png" alt="Logo ITP Library" class="img-fluid"></h1>
+                <p class="mb-4">
+                    Basic system for managing a library. It's a school project that I did for Object Oriented Programming. Programmed in Java, the most notable features are:
+                </p>
+                <p class="mb-4">
+                    <ul>
+                        <li>Graphic interface with Material Design style.</li>
+                        <li>MySQL database connection.</li>
+                        <li>Management of books, loans and returns.</li>
+                        <li>Penalties for late returns.</li>
+                        <li>Movement logs.</li>
+                        <li>Lookup tables.</li>
+                    </ul>
+                </p>
+                <div class="col-md-6 form-group">
+                    <a href="https://github.com/AnthonyZabs/ITPLibrary" target="_blank"><input type="button" class="btn btn-primary d-block w-100" value="VIEW ON GITHUB"></a>
+                </div>
+            </div>
+            <?php endif; ?>
             
         </div>
     </div>

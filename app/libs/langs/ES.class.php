@@ -13,7 +13,7 @@ class ES {
         $this->NAVCON = "Contactame";
 
         // Presentation
-        $this->PRESENTATION = "Hola, mi nombre es <i>Jos&eacute; Antonio Aguilar Z.</i>, y me encanta aprovechar mi tiempo libre para crear nuevas herramientas tecnol&oacute;gicas que puedan contribuir positivamente a la sociedad. ";
+        $this->PRESENTATION = "Hola, mi nombre es <i>Jos&eacute; Antonio Aguilar Z.</i>, y me encanta aprovechar mi tiempo libre para crear nuevas herramientas tecnol&oacute;gicas que puedan contribuir positivamente a la sociedad.";
 
         // About
         $this->TITABOUT = "Sobre m&iacute;";

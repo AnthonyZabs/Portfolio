@@ -57,7 +57,8 @@
                 </div>
 
             </div>
-
+            
+            <?php if (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) == 'es'): ?>
             <div class="col-md-6 text-justify">
                 <h1 class="justify-content-center text-center mb-5"><img src="/projects/cfe/img/cfe-logo.png" alt="Logo CFE" class="img-fluid"></h1>
                 <p class="mb-4">
@@ -65,7 +66,7 @@
                 </p>
                 <p class="mb-4">
                     <ul>
-                        <li>Sistema para migrar base de datos de OSIsoft PI de la GCRC al SQL Server de la Zona de Operaci&oacute;n de Transmisi&oacute;n Pachuca (ZOTP)</li>
+                        <li>Sistema para migrar base de datos de OSIsoft PI de la GCRC al SQL Server de la Zona de Operaci&oacute;n de Transmisi&oacute;n Pachuca (ZOTP).</li>
                         <li>Desarrollo, mantenimiento y mejora de sistemas internos de la ZOTP.</li>
                         <li>Reubicaci&oacute;n de la Sala de Operaci&oacute;n.</li>
                         <li>Instructor de curso-taller y capacitaci&oacute;n de C#.</li>
@@ -76,6 +77,26 @@
                 </p>
                 <p class="mb-4"><i>Todos estos sistemas se encuentran operando en la Intranet de la Organizaci&oacute;n.</i></p>
             </div>
+            <?php else: ?>
+            <div class="col-md-6 text-justify">
+                <h1 class="justify-content-center text-center mb-5"><img src="/projects/cfe/img/cfe-logo.png" alt="Logo CFE" class="img-fluid"></h1>
+                <p class="mb-4">
+                As part of my internship at the Federal Electricity Commission (Comisi&oacute;n Federal de Electricidad), I carried out the following activities and projects.
+                </p>
+                <p class="mb-4">
+                    <ul>
+                        <li>System to migrate OSIsoft PI database from the GCRC to the SQL Server of the Pachuca Transmission Operation Zone (ZOTP).</li>
+                        <li>Development, maintenance and improvement of internal systems of the ZOTP.</li>
+                        <li>RRelocation of the Operating Room.</li>
+                        <li>C# course-workshop and training instructor.</li>
+                        <li>Graph of electricity demand in real time..</li>
+                        <li>Graph of analysis of times and movements in licenses.</li>
+                        <li>Graph for the weekly report of the demand in the ZOTP and in the Central Regional Control Management.</li>
+                    </ul>
+                </p>
+                <p class="mb-4"><i>All these systems are operating on the Organization's Intranet.</i></p>
+            </div>
+            <?php endif; ?>
             
         </div>
     </div>
