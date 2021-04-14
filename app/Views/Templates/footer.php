@@ -8,8 +8,8 @@
         </div>
           <p><?php echo $this->LM->FOOTMSG; ?></p>
           <p class="social">
-            <a href="https://github.com/AnthonyZabs"><span class="bi bi-github"></span></a>
-            <a href="https://www.linkedin.com/in/JoseAntonioAgZb/"><span class="bi bi-linkedin"></span></a>
+            <a href="https://github.com/AnthonyZabs" target="_blank"><span class="bi bi-github"></span></a>
+            <a href="https://www.linkedin.com/in/JoseAntonioAgZb/" target="_blank"><span class="bi bi-linkedin"></span></a>
           </p>
         </div>
       </div>
