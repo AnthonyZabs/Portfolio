@@ -87,7 +87,7 @@
                     <ul>
                         <li>System to migrate OSIsoft PI database from the GCRC to the SQL Server of the Pachuca Transmission Operation Zone (ZOTP).</li>
                         <li>Development, maintenance and improvement of internal systems of the ZOTP.</li>
-                        <li>RRelocation of the Operating Room.</li>
+                        <li>Relocation of the Operating Room.</li>
                         <li>C# course-workshop and training instructor.</li>
                         <li>Graph of electricity demand in real time..</li>
                         <li>Graph of analysis of times and movements in licenses.</li>
