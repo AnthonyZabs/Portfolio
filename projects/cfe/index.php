@@ -89,7 +89,7 @@
                         <li>Development, maintenance and improvement of internal systems of the ZOTP.</li>
                         <li>Relocation of the Operating Room.</li>
                         <li>C# course-workshop and training instructor.</li>
-                        <li>Graph of electricity demand in real time..</li>
+                        <li>Graph of electricity demand in real time.</li>
                         <li>Graph of analysis of times and movements in licenses.</li>
                         <li>Graph for the weekly report of the demand in the ZOTP and in the Central Regional Control Management.</li>
                     </ul>
