@@ -18,7 +18,7 @@ My portfolio website where I love to share my work and my newly acquired skills.
 ✔️ Skills\
 ✔️ Work Experience\
 ✔️ Contact me\
-✔️ Social links\
+✔️ Social links
 
 To view a live example, **[click here](https://anthonyzabs.com/)**.
 
