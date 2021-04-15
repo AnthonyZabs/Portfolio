@@ -29,7 +29,7 @@ class EN {
         $this->PORTDESC = "Here are some of the projects that I've developed. Would you like to see more? <a href=\"#contact\">Contact me</a>";
 
         // Contact
-        $this->TITCON = "Be on touch";
+        $this->TITCON = "Get in touch";
         $this->CONDESC = "You can contact me by filling in the following form or if you prefer you can contact me by email:";
         $this->CONLABNAME = "Name";
         $this->CONLABEMAIL = "Email";
