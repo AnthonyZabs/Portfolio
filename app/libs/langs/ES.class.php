@@ -18,7 +18,7 @@ class ES {
         // About
         $this->TITABOUT = "Sobre m&iacute;";
         $this->ABHI = "Hola, mucho gusto.";
-        $this->ABPAR1 = "Soy egresado de la carrera de Ingenier&iacute;a en Sistemas Computacionales. Busco aplicar mis conocimientos te&oacute;ricos y pr&iacute;cticos aprendidos durante mi formaci&oacute;n académica con el fin de beneficiar a la sociedad y desarrollarme de forma personal y profesional.";
+        $this->ABPAR1 = "Soy egresado de la carrera de Ingenier&iacute;a en Sistemas Computacionales. Busco aplicar mis conocimientos te&oacute;ricos y pr&aacute;cticos aprendidos durante mi formaci&oacute;n académica con el fin de beneficiar a la sociedad y desarrollarme de forma personal y profesional.";
         $this->ABPAR2 = "Desde que comencé mi viaje como programador hace casi 10 a&ntilde;os, he trabajado a distancia para clientes, he trabajado en proyectos personales y he colaborado con personas talentosas para desarrollar aplicaciones y servicios de uso privado y comercial.";
 
         // Skills
