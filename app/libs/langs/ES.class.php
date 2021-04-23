@@ -26,7 +26,7 @@ class ES {
 
         // Portfolio
         $this->TITPORT = "Portafolio";
-        $this->PORTDESC = "Aqu&iacute; hay algunos de los proyectos que he desarrollado. ¿Te gustar&iacute;a ver m&iacute;s? <a href=\"#contact\">Cont&aacute;ctame</a>";
+        $this->PORTDESC = "Aqu&iacute; hay algunos de los proyectos que he desarrollado. ¿Te gustar&iacute;a ver m&aacute;s? <a href=\"#contact\">Cont&aacute;ctame</a>";
 
         // Contact
         $this->TITCON = "Mantente en contacto";
