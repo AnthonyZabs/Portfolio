@@ -26,7 +26,7 @@ To view a live example, **[click here](https://anthonyzabs.com/)**.
 You only need the import the database and edit the `app/libs/core/Config.class.php` with your database connection credentials.
 
 ## Adding or Editing projects
-The projects are alocated in `projecs/`, the screenshots mustb be in a folder inside. Example: `projects/newproject/img/screens/`.
+The projects are alocated in `projecs/`, the screenshots must be in a folder inside. Example: `projects/newproject/img/screens/`.
 The reason is because the index.php of the project read the directory from that folder with the images automatically.
 
 The projects grid in the landing page calls that folder by ajax tho show the information in a modal.
