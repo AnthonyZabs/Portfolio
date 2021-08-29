@@ -249,7 +249,7 @@ class Extras {
 
         while ($i < strlen($text) && $stripped < strlen($stripped_text) && $stripped < $max_length)
         {
-            $symbol  = $text{$i};
+            $symbol  = $text[$i];
             $result .= $symbol;
 
             switch ($symbol)

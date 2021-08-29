@@ -3,6 +3,10 @@
 # Developed by J. A. A. Z.         #
 #  - 2021                          #
 ####################################
+define('DEBUG', false);
+
+error_reporting(E_ALL);
+ini_set('display_errors', DEBUG ? 'On' : 'Off');
 
 // core
 require_once 'libs/core/Config.class.php';

@@ -71,6 +71,15 @@
 
             <div id="blogSlider" class="">
                 <div class="MS-content">
+                <div class="item">
+                        <img class="skill-logo skill-transition" src="<?php echo Config::$SOURCES; ?>/img/skills/xamarin.svg" alt="Xamarin" title="Xamarin">
+                    </div>
+                    <div class="item">
+                        <img class="skill-logo skill-transition" src="<?php echo Config::$SOURCES; ?>/img/skills/android.svg" alt="Android" title="Android">
+                    </div>
+                    <div class="item">
+                        <img class="skill-logo skill-transition" src="<?php echo Config::$SOURCES; ?>/img/skills/apple.svg" alt="Apple (iOS)" title="Apple (iOS)">
+                    </div>
                     <div class="item">
                         <img class="skill-logo skill-transition" src="<?php echo Config::$SOURCES; ?>/img/skills/java-4.svg" alt="Java" title="Java">
                     </div>
@@ -114,9 +123,6 @@
                         <img class="skill-logo skill-transition" src="<?php echo Config::$SOURCES; ?>/img/skills/mysql.svg" alt="MySQL" title="MySQL">
                     </div>
                     <div class="item">
-                        <img class="skill-logo skill-transition" src="<?php echo Config::$SOURCES; ?>/img/skills/android.svg" alt="Android" title="Android">
-                    </div>
-                    <div class="item">
                         <img class="skill-logo skill-transition" src="<?php echo Config::$SOURCES; ?>/img/skills/arduino-1.svg" alt="Arduino" title="Arduino">
                     </div>
                 </div>
@@ -143,6 +149,14 @@
         </div>
 
         <div class="row">
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="/projects/inbursa/index.php" class="project__image">
+                    <img class="project__image card-img-top" alt="Inbursa Móvil" style="height: 225px; width: 100%; display: block;" src="<?php echo Config::$SOURCES; ?>/img/portfolio/inbursa-card.png" data-holder-rendered="true">
+                </a>
+              </div>
+            </div>
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
@@ -180,14 +194,6 @@
               <div class="card mb-4 shadow-sm">
                 <a href="/projects/futsoft/index.php" class="project__image">
                     <img class="project__image card-img-top" alt="FutSoft" style="height: 225px; width: 100%; display: block;" src="<?php echo Config::$SOURCES; ?>/img/portfolio/futsoft-card.png" data-holder-rendered="true">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <a href="/projects/itplibrary/index.php" class="project__image">
-                    <img class="project__image card-img-top" alt="ITP Library" style="height: 225px; width: 100%; display: block;" src="<?php echo Config::$SOURCES; ?>/img/portfolio/itplibrary-card.png" data-holder-rendered="true">
                 </a>
               </div>
             </div>
